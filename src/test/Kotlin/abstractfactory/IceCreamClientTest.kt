@@ -4,10 +4,9 @@ import abstractfactory.chocolate.WhiteChocolateTopping
 import abstractfactory.cookie.BrownCookieTopping
 import abstractfactory.cookie.DarkCookieTopping
 import org.junit.jupiter.api.Test
-import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-class ToppingFactoryTest {
+class IceCreamClientTest {
 
     @Test
     fun createTopping_expectWhiteChocolate() {
