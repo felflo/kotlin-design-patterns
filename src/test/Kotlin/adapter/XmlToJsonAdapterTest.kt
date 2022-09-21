@@ -9,8 +9,8 @@ class XmlToJsonAdapterTest {
 
     @Test
     fun convertXmlToJson_expectJSON() {
-        val testee = XmlToJsonAdapter(JsonConsumer(), XmlProducer())
-        val result = testee.convertXmlToJson()
+        val xmlToJsonAdapter = XmlToJsonAdapter(JsonConsumer(), XmlProducer())
+        val result = xmlToJsonAdapter.convertXmlToJson()
 
         assertSame(result, FileType.JSON.name)
     }
